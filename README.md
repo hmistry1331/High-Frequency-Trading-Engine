@@ -17,10 +17,3 @@ A multi-threaded order book simulation written in C++ that mimics the core logic
 * **Language:** C++ (C++17 Standard)
 * **Libraries:** `thread`, `mutex`, `vector`, `chrono`
 
-## 💻 How to Run
-To compile and run this project, you need a C++ compiler that supports C++11 or later (e.g., GCC, Clang).
-
-**Using Terminal (Linux/Mac/WSL):**
-```bash
-g++ -std=c++17 -pthread main.cpp -o trading_engine
-./trading_engine
